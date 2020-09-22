@@ -1,0 +1,143 @@
+body{
+	background-color: #f6f6f6;
+}
+ul li{
+			margin-left: 60px;
+			margin-top: 7px;
+			font-weight: bold;
+		}
+
+		#row-vx{
+			margin-top: 50px;
+			text-align: center;
+		}
+
+		#row-vx-imagen{
+			margin-top: 25px;
+			text-align: center;
+		}
+
+		#fila-1{
+			margin-top: 50px;
+			z-index: -1;
+			text-align: center;
+		}
+		#fila-1 img{
+			margin-top: 5px;
+		}
+
+		#texto-sobre-img{
+				position: absolute;
+				text-align: center;
+				margin-top: 280px;
+				margin-left: 330px;
+				color: white;
+
+				}	
+		#texto-sobre-img-2{
+				position: absolute;
+				text-align: center;
+				margin-top: 295px;
+				margin-left: 1080px;
+				color: white;
+
+				}
+
+		/*Utilizamos un media query (https://www.w3schools.com/css/css_rwd_mediaqueries.asp) para establecer unos márgenes 
+		distintos al hacer la pantalla más pequeña
+
+		Atributos que se aplican hasta que la pantalla mide
+		700px de ancho*/
+
+		@media only screen and (max-width: 700px) {
+  			#texto-sobre-img{
+				position: absolute;
+				text-align: center;
+				margin-top: 60px;
+				margin-left: 120px;
+
+			}
+
+			#texto-sobre-img-2{
+				position: absolute;
+				text-align: center;
+				margin-top: 400px;
+				margin-left: 120px;
+				
+				}
+		}
+
+footer{
+			height: auto;
+			margin-top: 30px;
+			background-color: #000;
+			text-align: justify;
+		}
+		#form-footer{
+			margin-top: 100px;
+		}
+		#form-footer label{
+			color: white;
+		}
+		#form-footer button{
+			margin-top: 10px;
+			background-color: #a29bfe;
+			width: 150px;
+			color: white;
+		}
+		#direccion{
+			color: #b2bec3;
+		}
+		#contacto{
+			color: #b2bec3;
+		}
+		#col2-footer{
+			
+			margin-top: 100px;
+		}
+		#form-contact{
+			margin-top: 30px;
+		}
+		#form-contact input, textarea, button{
+			margin-top: 10px;
+		}
+
+
+		footer h5{
+			color: #f6f6f6;
+		}
+		#politica{
+			color:#a29bfe;
+			} 
+		#seccion-4{
+			text-align: center;
+		}
+		#descuentos{
+			margin-top: 20px;
+		}
+		#icon{
+			color: grey;
+		}
+		
+		#icon:hover{
+			color: #a29bfe;
+		}
+
+		.nav{
+			text-decoration: none;
+			color: grey;
+		}
+
+		.nav:hover{
+			color: #a29bfe;
+			text-decoration: none;
+		}
+		#inicio{
+			color: #a29bfe;
+		}
+		#col-central{
+			text-align: left;
+		}
+		#col-central-2{
+			text-align: left;
+		}

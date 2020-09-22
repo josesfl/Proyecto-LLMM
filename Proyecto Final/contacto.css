@@ -1,0 +1,148 @@
+body{
+	background-color: #f6f6f6;
+	background-image: url("https://images.pexels.com/photos/2909/sport-skateboard-skateboarder-skateboarding.jpg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+}
+
+
+.nav{
+		text-decoration: none;
+		color: grey;
+	}
+.nav:hover{
+		color: #a29bfe;
+		text-decoration: none;
+	}
+#contactos{
+		color: #a29bfe;
+	}
+#icon{
+		color: grey;
+	}
+		
+#icon:hover{
+			color: #a29bfe;
+		}
+
+ul li{
+			margin-left: 60px;
+			margin-top: 7px;
+			font-weight: bold;
+		}
+
+		
+
+		
+
+		/*Utilizamos un media query (https://www.w3schools.com/css/css_rwd_mediaqueries.asp) para establecer unos márgenes 
+		distintos al hacer la pantalla más pequeña
+
+		Atributos que se aplican hasta que la pantalla mide
+		700px de ancho*/
+
+		@media only screen and (max-width: 500px) {
+  			
+  			#col-central{
+				text-align: left;
+			}
+			#col-central-2{
+				text-align: left;
+			}
+
+		}
+
+
+#fila-titulo{
+		text-align: center;
+		width: 100%;
+		margin-top: 80px;
+	}
+
+#fila-formulario{
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+#tarjeta-contacto{
+		background-color:  #a29bfe;
+
+	}
+#botonform{
+	margin-top: 10px;
+}
+
+#btn{
+	margin-top: 10px;
+	background-color: #a29bfe;
+	width: 100%;
+	color: white;
+}
+#tarjeta-contacto .row{
+		margin-top: 60px;
+		margin-left: 40px;
+	}
+
+	span{
+		margin-left: 10px;
+		color: #463330;
+	}
+
+	#text-cont{
+		font-size: 20px;
+		color: white;
+		font-weight: 600;
+	}
+footer{
+			height: auto;
+			margin-top: 30px;
+			background-color: #000;
+			text-align: justify;
+		}
+		#form-footer{
+			margin-top: 100px;
+		}
+		#form-footer label{
+			color: white;
+		}
+		#form-footer button{
+			margin-top: 10px;
+			background-color: #a29bfe;
+			width: 150px;
+			color: white;
+		}
+		#direccion{
+			color: #b2bec3;
+		}
+		#contacto{
+			color: #b2bec3;
+		}
+		#col2-footer{
+			
+			margin-top: 100px;
+		}
+		#form-contact{
+			margin-top: 30px;
+		}
+		#form-contact input, textarea, button{
+			margin-top: 10px;
+		}
+
+
+		footer h5{
+			color: #f6f6f6;
+		}
+		#politica{
+			color:#a29bfe;
+			} 
+		#seccion-4{
+			text-align: center;
+		}
+		#descuentos{
+			margin-top: 20px;
+		}
+		
+		
+		#col-central{
+			text-align: center;
+		}
+		#col-central-2{
+			text-align: center;
+		}

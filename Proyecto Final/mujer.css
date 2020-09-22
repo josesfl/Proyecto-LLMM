@@ -1,0 +1,135 @@
+body{
+	background-color: #f6f6f6;
+}
+.nav{
+		text-decoration: none;
+		color: grey;
+	}
+.nav:hover{
+		color: #a29bfe;
+		text-decoration: none;
+	}
+#mujer{
+		color: #a29bfe;
+	}
+#icon{
+		color: grey;
+	}
+		
+#icon:hover{
+			color: #a29bfe;
+		}
+
+ul li{
+			margin-left: 60px;
+			margin-top: 7px;
+			font-weight: bold;
+		}
+
+		
+
+		
+
+		/*Utilizamos un media query (https://www.w3schools.com/css/css_rwd_mediaqueries.asp) para establecer unos márgenes 
+		distintos al hacer la pantalla más pequeña
+
+		Atributos que se aplican hasta que la pantalla mide
+		700px de ancho*/
+
+		@media only screen and (max-width: 700px) {
+  			
+		}
+#ropa{
+	margin-top: 50px;
+}
+
+#botones-ropa{
+	
+	margin-top: 100px;
+	
+	margin-bottom: 10px;
+}
+
+#seccion-botones{
+	display: inline-flex;
+	margin-left: 350px;
+
+}
+#seccion-botones button{
+			margin-top: 10px;
+			margin-left: 10px;
+			background-color: #a29bfe;
+			width: 150px;
+			color: white;
+}
+#seccion-botones button:hover{
+	color: black;
+}
+.descripcion-ropa{
+	font-size: 14px;
+}
+.precio{
+	font-size: 14px;
+	font-weight: bold;
+}
+.precio:hover{
+		color: #a29bfe;
+		font-weight: bold;
+	}
+
+footer{
+			height: auto;
+			margin-top: 30px;
+			background-color: #000;
+			text-align: justify;
+		}
+		#form-footer{
+			margin-top: 100px;
+		}
+		#form-footer label{
+			color: white;
+		}
+		#form-footer button{
+			margin-top: 10px;
+			background-color: #a29bfe;
+			width: 150px;
+			color: white;
+		}
+		#direccion{
+			color: #b2bec3;
+		}
+		#contacto{
+			color: #b2bec3;
+		}
+		#col2-footer{
+			
+			margin-top: 100px;
+		}
+		#form-contact{
+			margin-top: 30px;
+		}
+		#form-contact input, textarea, button{
+			margin-top: 10px;
+		}
+
+
+		footer h5{
+			color: #f6f6f6;
+		}
+		#politica{
+			color:#a29bfe;
+			} 
+		#seccion-4{
+			text-align: center;
+		}
+		#descuentos{
+			margin-top: 20px;
+		}
+		
+		
+		#col-central{
+			text-align: left;
+		}
+		#col-central-2{
+			text-align: left;
+		}
